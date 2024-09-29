@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/am"
+    tools:context=".Fifth">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/am" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="408dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="324dp"
+        android:ems="10"
+        android:hint="Enter Your Text"
+        android:inputType="text"
+        android:textColorHighlight="#171717" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="177dp"
+        android:text="SPEAK"
+        android:textColor="#8A0707" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="180dp"
+        android:text="PREVIOUS"
+        android:textColor="#A80F0F" />
+</RelativeLayout>

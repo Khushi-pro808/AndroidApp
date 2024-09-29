@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ac"
+    tools:context=".Second">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="463dp"
+        android:text="TEXT TO SPEECH"
+        android:textColor="#B11212"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="110dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="274dp"
+        android:layout_marginBottom="464dp"
+        android:text="WIFI"
+        android:textColor="#AC0F0F"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginBottom="349dp"
+        android:text="BLUETOOTH"
+        android:textColor="#9E0D0D"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginBottom="356dp"
+        android:text="CALCULATOR"
+        android:textColor="#AA1313"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginBottom="235dp"
+        android:text="NEXT"
+        android:textColor="#A80D0D"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+</RelativeLayout>
